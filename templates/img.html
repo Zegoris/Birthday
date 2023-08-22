@@ -5,25 +5,22 @@
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      {% for i in range(1, 5) %}
+      {% for i in range(1, 4) %}
       <li data-target="#myCarousel" data-slide-to="{{ i }}"></li>
       {% endfor %}
     </ol>
   <div class="carousel-inner">
       <div class="item active">
-      <img src="{{ url_for('static', filename='img/0.jpeg') }}" alt="Лучшая девочка" style="width:100%;">
+      <img src="{{ url_for('static', filename='img/0.jpeg') }}" alt="Ты лучший котик" style="width:100%;">
     </div>
     <div class="item">
-      <img src="{{ url_for('static', filename='img/1.jpeg') }}" alt="СОСОК" style="width:100%;">
+      <img src="{{ url_for('static', filename='img/1.jpeg') }}" alt="Ты лучший котик" style="width:100%;">
     </div>
     <div class="item">
-      <img src="{{ url_for('static', filename='img/2.jpeg') }}" alt="Любимый мужчина" style="width:100%;">
+      <img src="{{ url_for('static', filename='img/2.jpeg') }}" alt="Ты лучший котик" style="width:100%;">
     </div>
     <div class="item">
-      <img src="{{ url_for('static', filename='img/3.jpeg') }}" alt="СОСОК" style="width:100%;">
-    </div>
-    <div class="item">
-      <img src="{{ url_for('static', filename='img/4.jpeg') }}" alt="Любимый мужчина" style="width:100%;">
+      <img src="{{ url_for('static', filename='img/3.jpeg') }}" alt="Ты лучший котик" style="width:100%;">
     </div>
   </div>
 
